@@ -2,8 +2,8 @@
 n = int(input())
 d = {}
 for i in range(n):
-    x = input().split()
-    d[x[0]] = x[1]
+    x = input().split()              # give inputs in two part and then click enter and give next inputs in two parts
+    d[x[0]] = x[1]                    # here we are mapping the value of 2nd input in side first input(i.e assigning phone to thier respective names
 while True:
     try:
         name = input()
